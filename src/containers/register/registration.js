@@ -31,7 +31,7 @@ constructor(){
          password:this.state.password
        }
        this.props.setAdmin(payload);
-      this.props.history.push("/login");
+      this.props.history.push("/");
      }else{
         console.log('====================================');
         console.log("Pass the required parameters");

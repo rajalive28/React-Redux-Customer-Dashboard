@@ -70,9 +70,9 @@ import {connect } from 'react-redux';
     />
     </Form>
     <Segment>
-            Don't have an account ? <Link to='/'>Create One</Link>
+            Don't have an account ? <Link to='/register'>Create One</Link>
     <Divider section />
-    <Link to='/'> Go back to home page</Link>
+    <Link to='/register'> Go back to home page</Link>
   </Segment>
     </Container>
             </div>

@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
 import Registration from '../../containers/register/registration'
-import {Container, Header, Icon} from 'semantic-ui-react'
+import {Container, Header, Icon,Segment} from 'semantic-ui-react'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Container>
+        <Container >
+          <Segment color='yellow'>
           <Header as='h2' icon>
             <Icon name='settings'/>
             Registration
@@ -16,6 +17,7 @@ class App extends Component {
             </Header.Subheader>
           </Header>
           <Registration/>
+          </Segment>
         </Container>
       </div>
     );
